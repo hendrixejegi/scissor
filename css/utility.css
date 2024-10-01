@@ -1,0 +1,38 @@
+/* fonts */
+.medium {font-family: "Gilroy-Medium";}
+
+.semi-bold {font-family: "Gilroy-SemiBold";}
+
+.bold {font-family: "Gilroy-Bold";}
+
+/* font sizes */
+.f-18 {font-size: 1.125rem;}
+
+.f-48 {font-size: 3rem;}
+
+/* text styles */
+.highlight {color: #0065FE;}
+
+.button {
+  width: 142px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 100px;
+  background-color: #0065FE;
+}
+
+/* display */
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* margin */
+.centered {
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
