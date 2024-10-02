@@ -85,3 +85,71 @@ input {outline: 0;}
 .banner-box img {margin-bottom: 16px;}
 
 .banner-box p {width: 350px;}
+
+/* Info Section */
+.info-content {
+  background-color: #F9FBFD;
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: max-content auto;
+  justify-content: center;
+  gap: 120px;
+  margin-bottom: 128px;
+}
+
+/* Stats */
+.stats {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 72px;
+}
+
+.stats-group {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 72px;
+}
+
+.stats-description {line-height: 24px;}
+
+/* features section */
+.features {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 96px;
+  justify-content: center;
+}
+
+.features-title-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+
+.features-description {
+  padding-left: 28.1px;
+  width: 370px;
+  line-height: 28px;
+}
+
+.features-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.features-group {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: subgrid;
+  margin-bottom: 64px;
+}
+
+.features-item-icon {margin-bottom: 40px;}
+
+.features-item-title {margin-bottom: 16px;}
+
+.features-item-description {
+  width: 340px;
+  line-height: 24px;
+}
