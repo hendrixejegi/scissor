@@ -24,7 +24,7 @@
 .highlight {color: #0065FE;}
 
 .button {
-  width: 142px;
+  width: fit-content;
   height: 44px;
   color: #fff;
   text-align: center;

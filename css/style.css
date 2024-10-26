@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #141414;
 }
 
 ul li {list-style: none;}
@@ -152,4 +151,127 @@ input {outline: 0;}
 .features-item-description {
   width: 340px;
   line-height: 24px;
+}
+
+/* Pricing section */
+.pricing-header {
+  margin-top: 108px;
+  margin-bottom: 68px;
+}
+
+.pricing-title-container {
+  display: flex;
+}
+
+.pricing-title {
+  padding-left: 16px;
+  padding-right: 2px;
+  line-height: 48px;
+  margin-bottom: 8px;
+}
+
+.pricing-description {
+  text-align: center;
+  width: 556px;
+  padding-left: 18.1px;
+  padding-right: 2px;
+  line-height: 24px;
+}
+
+.pricing-group {
+  position: relative;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 379px 410px 379px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 68px;
+}
+
+.plan:nth-child(1), 
+.plan:nth-child(3) {
+  position: relative;
+  z-index: 1;
+  padding-top: 24px;
+  padding-left: 87px;
+  padding-bottom: 43px;
+  border: 0.4px solid rgba(0, 90, 226, 1);
+  border-radius: 10px;
+}
+
+.plan:nth-child(1) {margin-right: -40px;}
+
+.plan:nth-child(3) {margin-left: -40px;}
+
+.plan:nth-child(2) {
+  position: relative;
+  z-index: 3;
+  padding-top: 95px;
+  padding-left: 65px;
+  padding-bottom: 148px;
+  color: #fff;
+  background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  border-radius: 10px;
+}
+
+.plan:nth-child(1) .plan-name, 
+.plan:nth-child(2) .plan-name, 
+.plan:nth-child(3) .plan-name {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.plan:nth-child(1) .price-container, 
+.plan:nth-child(2) .price-container, 
+.plan:nth-child(3) .price-container {margin-bottom: 16px;}
+
+.plan:nth-child(1) .price, 
+.plan:nth-child(2) .price, 
+.plan:nth-child(3) .price {
+  line-height: 48px;
+  margin-bottom: 8px;
+}
+
+.plan:nth-child(1) .price-description, 
+.plan:nth-child(2) .price-description, 
+.plan:nth-child(3) .price-description {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.plan:nth-child(1) .plan-features li, 
+.plan:nth-child(3) .plan-features li {
+  background-image: url(/icons/check-circle-blue.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  padding-left: 24px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.plan:nth-child(2) .plan-features li {
+  background-image: url(/icons/check-circle-white.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  padding-left: 24px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.plan:nth-child(1) .plan-features li:last-child, 
+.plan:nth-child(2) .plan-features li:last-child, 
+.plan:nth-child(3) .plan-features li:last-child {
+  margin-bottom: 0;
+}
+
+.price-buttons {
+  gap: 12px;
+  margin-bottom: 112px;
+}
+
+.price-buttons p:nth-child(1) a {
+  background-color: #fff;
+  color: #0065FE;
+  border: 0.4px solid #0065FE;
 }
