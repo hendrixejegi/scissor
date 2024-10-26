@@ -35,15 +35,15 @@
         <div class="nav-container medium f-18">
           <ul class="flex">
             <li><a href="#" class="highlight">My URLs</a></li>
-            <li>
+            <li class="normal-links">
               <a href="#"
                 >Features
                 <span><img src="/icons/Vector-chevron-down.png" alt="" /></span
               ></a>
             </li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">FAQs</a></li>
+            <li class="normal-links"><a href="#">Pricing</a></li>
+            <li class="normal-links"><a href="#">Analytics</a></li>
+            <li class="normal-links"><a href="#">FAQs</a></li>
           </ul>
         </div>
         <div class="nav-container semi-bold">
@@ -271,9 +271,154 @@
           <p><a href="" class="button semi-bold">Select Pricing</a></p>
         </div>
       </section>
-      <section id="sample"></section>
-      <section id="faqs"></section>
-      <section id="banner"></section>
+      <section id="sample" class="sample">
+        <div class="sample-box">
+          <form action="">
+            <input type="text" placeholder="Paste URL here..." class="medium" />
+            <div class="form-box">
+              <select name="" id="" class="medium">
+                <option value="">Choose Domain</option>
+              </select>
+              <input type="text" placeholder="Type Alias here" class="medium" />
+            </div>
+            <button>
+              <span class="semi-bold">Trim URL</span>
+              <img src="./icons/magic wand.png" alt="" />
+            </button>
+          </form>
+          <p class="medium">
+            By clicking TrimURL, I agree to the
+            <span class="bold highlight">Terms of Service, Privacy Policy</span>
+            and Use of Cookies.
+          </p>
+        </div>
+        <img src="./icons/Group 3left.png" alt="" class="left-image" />
+        <img src="./icons/Group 2right.png" alt="" class="right-image" />
+      </section>
+      <section id="faqs" class="faqs">
+        <div class="faqs-header bold">
+          <img src="/icons/Line 70-feature.png" alt="" class="features-icon" />
+          <h2>FAQs</h2>
+        </div>
+        <div class="faqs-content">
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>How does URL shortening work?</p>
+              <button>
+                <img src="./icons/minus.png" alt="" />
+              </button>
+            </div>
+            <p class="item-summary medium">
+              URL shortening works by taking a long URL and creating a shorter,
+              condensed version that redirects to the original URL. When a user
+              clicks on the shortened link, they are redirected to the intended
+              destination.
+            </p>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>
+                Is it necessary to create an account to use the URL shortening
+                service?
+              </p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>Are the shortened links permanent? Will they expire?</p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>
+                Are there any limitations on the number of URLs I can shorten?
+              </p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>
+                Can I customize the shortened URLs to reflect my brand or
+                content?
+              </p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>Can I track the performance of my shortened URLs?</p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>
+                How secure is the URL shortening service? Are the shortened
+                links protected against spam or malicious activity?
+              </p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>What is a QR code and what can it do?</p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="faqs-content-item">
+            <div class="item-header medium">
+              <p>
+                Is there an API available for integrating the URL shortening
+                service into my own applications or websites?
+              </p>
+              <button>
+                <img src="./icons/plus.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./icons/Group 3faqs-left.png"
+          alt=""
+          class="faqs-image-left"
+        />
+        <img
+          src="./icons/Group 2-faqs-right.png"
+          alt=""
+          class="faqs-image-right"
+        />
+      </section>
+      <section id="banner" class="billboard">
+        <h2 class="bold">Revolutionizing Link Optimization</h2>
+        <button class="button semi-bold">Get Started</button>
+        <img
+          src="./icons/Group 3-billboard-left.png"
+          alt=""
+          class="billboard-image-left"
+        />
+        <img
+          src="./icons/Group 2-billboard-right.png"
+          alt=""
+          class="billboard-image-right"
+        />
+      </section>
     </main>
 
     <footer id="footer"></footer>
